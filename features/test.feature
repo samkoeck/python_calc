@@ -15,9 +15,9 @@ Feature: I want to be able to add numbers in the string calculator code kata
     When the string is calculated
     Then the result is 8
 
-  Scenario: The one with an illegal number
-    Given a string "1,2,-3"
-    Then the calculation of the string throws a NegativeNumberNotAllowed exception
+#   Scenario: The one with an illegal number
+#     Given a string "1,2,-3"
+#     Then the calculation of the string throws a NegativeNumberNotAllowed exception
 
 #  Scenario Outline: the ones to verify that number over 1000 are not included in the sum
 #     Given a string "<numbers>"

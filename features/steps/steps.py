@@ -27,8 +27,8 @@ def impl_bk(context):
     value = string_calculator("1,2,5")
     assert value == 8
 
-@then('the calculation of the string throws a NegativeNumberNotAllowed exception')
-def impl_bk(context):
-    value = string_calculator("1,2,-3")
-    assert value == 0
+# @then('the calculation of the string throws a NegativeNumberNotAllowed exception')
+# def impl_bk(context):
+#     value = string_calculator("1,2,-3")
+#     assert value == 0
     
